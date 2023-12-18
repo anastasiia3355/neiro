@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons//favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicons/manifest.json">
+    
+    <link rel="stylesheet" href="magnific.css">
+    <script src="https://kit.fontawesome.com/686563114a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="Психолог, нейро-психолог, нейро-логопед">
+    
+    <title></title>
+</head>
+<body>
+    <!-- SCROLL TOP -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='fas fa-arrow-up scrolltop-icon'></i>
+    </a>
+    <!-- END SCROLL TOP -->    <header class="header" id="header">
+        <div class="container header__container">
+              <!-- BURGER START-->
+              <div class="burg__content" id="navToggle">
+                <button class="burger" type="button"  >
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                 </button>
+              </div>
+            <!-- BURGER END-->
+          
+            <div class="header__logo">
+                <img src="assets/images/logo.svg" alt="">
+            </div>
+            <nav class="header__menu" id="navmenu">
+                <picture>
+                    <source type="image/webp" srcset="assets/images/menu-bg2.webp">
+                    <img src="assets/images/menu-bg2.png" alt="menu-fon" class="menu-bg">
+                </picture>
+                <ul id="nav">
+                    <!-- <img src="assets/images/menu-bg2.png"  alt="" class="menu-bg"> -->
+                    <!-- <img src="assets/images/menu-bg2.png" alt="" class="menu-bg"> -->
+                    <li><a href="#about" class="nav__link" data-scroll="#about">Обо мне</a></li>
+                    <li><a href="#uslugi" class="nav__link" data-scroll="#uslugi">Услуги и цены</a></li>
+                    <li><a href="#blog" class="nav__link" data-scroll="#blog">Мой блог</a></li>
+                    <li><a href="#products" class="nav__link" data-scroll="#products">Мои продукты</a></li>
+                  
+                </ul>
+            </nav>
+            <a href="tel:+79213770091" class="header__contact">
+                <img src="assets/images/ph.svg" alt=""><span>+7-921-377-00-91</span>
+            </a>
+        </div>
+    </header>
+    
+    
+    
+
+    
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <ul class="footer__menu">
+                <li><a href="#!">Обо мне</a></li>
+                <li><a href="#!">Услуги и цены</a></li>
+                <li><a href="#!">Мой блог</a></li>
+                <li><a href="#!">Мои продукты</a></li>
+            </ul>
+            <ul class="footer__social">
+                <li><a href="#!">
+                    <img src="assets/images/whatsapp.svg" alt="">
+                </a></li>
+                <li><a href="#!">
+                    <img src="assets/images/telegram.svg" alt="">
+                </a></li>
+                <li><a href="#!">
+                    <img src="assets/images/vk.svg" alt="">
+                </a></li>
+            </ul>
+        </div>
+    </footer>
+
+    
+    <div class="modal" id="becomeClientModal" >
+        <!-- MODAL INNER 1 -->
+        <div class="modal__inner">
+            <div class="modal__header">
+                Не откладывайте заботу о своем психическом здоровье и здоровье своего ребенка - запишитесь на консультацию ко мне уже сегодня. 
+            </div>
+    
+            <div class="request-form__content" >                      
+               
+                    <form action="/" method="POST" >
+                        <div class="form__group" >
+                            <input class="input-black input-black--user" type="text" placeholder="Ваше Имя">
+                        </div>     
+                        <div class="form__group">
+                            <input class="input-black input-black--phone tel" type="tel" placeholder="Ваш Телефон">
+                        </div>     
+                        <div class="for-btn for-btn--form">
+                            <button class="btn-submit" type="submit">Записаться</button>
+                        </div>      
+                    </form>
+              
+            </div>
+           
+            <button class="modal__close" data-modal-close>
+                
+            </button>       
+        </div>
+      
+    </div>
+    
+    <!-- THANK YOU BEGIN -->
+    <div class="modal" id="ThanksModal" >
+        <!-- MODAL INNER 1 -->
+        <div class="modal__inner modal__inner1">
+            <div class="modal__header1">
+                Спасибо за заявку!
+            </div>
+    
+            <button class="modal__close" data-modal-close>
+                
+            </button>       
+        </div>
+      
+    </div>
+    
+    <!-- THANK YOU END -->
+    
+    <div class="modal" id="adult" >
+        <!-- MODAL INNER 1 -->
+        <div class="modal__inner">
+            <div class="modal__container show">
+                <div class="modal__header modal__header--fw700">
+                    Психолог для взрослых
+                 </div>
+                 <div class="modal__content">
+                    <div class="modal__content-item">
+                        <div class="modal__usluga">Психологическая консультация (1 ч.)
+                        </div>
+                        <div class="modal__price">3500 руб.</div>
+                    </div>
+                    <div class="modal__content-item">
+                        <div class="modal__usluga">Психологическая консультация (1 ч.)
+                        </div>
+                        <div class="modal__price">4000 руб.</div>
+                    </div>
+                    <div class="modal__content-item">
+                        <div class="modal__usluga">Психологическая терапия (2 ч.)
+                        </div>
+                        <div class="modal__price">5000 руб.</div>
+                    </div>
+                   
+                 </div>
+                 <div class="for-btn for-btn--form">
+                     <a href="#!" class="btn-submit btn-submit--center" data-modal="#adultForm">Записаться</a>
+                 </div> 
+            </div>
+            <div class="modal__container-2" id="adultForm">
+                <div class="modal__header">
+                    Консультация: <span>Психолог для взрослых</span>
+                </div>
+             
+                <div class="request-form__content" >                      
+                   
+                        <form action="/" method="POST" >
+                            <div class="form__group" >
+                                <input class="input-black input-black--user" type="text" placeholder="Ваше Имя">
+                            </div>     
+                            <div class="form__group">
+                                <input class="input-black input-black--phone tel" type="tel" placeholder="Ваш Телефон">
+                            </div>     
+                            <div class="for-btn for-btn--form">
+                                <button class="btn-submit" type="submit">Записаться</button>
+                            </div>      
+                        </form>
+                  
+                </div>
+            </div>
+            <button class="modal__close" data-modal-close>
+                
+            </button>       
+        </div>
+      
+    </div>
+    <!-- 2 -->
+    <div class="modal" id="neirodefecto" >
+        <div class="modal__inner">
+            <div class="modal__container show">
+                <div class="modal__header modal__header--fw700">
+                    Нейродефектология для детей
+                 </div>
+                 <div class="modal__content">
+                    <div class="modal__content-item">
+                        <div class="modal__usluga">Психологическая диагностика (2 ч.)
+                        </div>
+                        <div class="modal__price">3500 руб.</div>
+                    </div>
+                    <div class="modal__content-item">
+                        <div class="modal__usluga">Психологическое занятие (30 мин.)
+                        </div>
+                        <div class="modal__price">4000 руб.</div>
+                    </div>
+                    <div class="modal__content-item">
+                        <div class="modal__usluga">Абонемент 8 занятий (по 30 мин.)
+                        </div>
+                        <div class="modal__price">14000 руб.</div>
+                    </div>
+                    <div class="modal__content-item">
+                        <div class="modal__usluga">Психологическое занятие (1 ч.)
+                        </div>
+                        <div class="modal__price">2500 руб.</div>
+                    </div>
+                    <div class="modal__content-item">
+                        <div class="modal__usluga">Абонемент 8 занятий (по 1 ч.)
+                        </div>
+                        <div class="modal__price">18000 руб.</div>
+                    </div>
+                   
+                 </div>
+                 <div class="for-btn for-btn--form">
+                     <a href="#!" class="btn-submit btn-submit--center" data-modal="#neirodefectoForm">Записаться</a>
+                 </div> 
+            </div>
+            <div class="modal__container-2" id="neirodefectoForm">
+                <div class="modal__header">
+                    Консультация: <span>Нейродефектология для детей</span>
+                </div>
+             
+                <div class="request-form__content" >                      
+                   
+                        <form action="/" method="POST" >
+                            <div class="form__group" >
+                                <input class="input-black input-black--user" type="text" placeholder="Ваше Имя">
+                            </div>     
+                            <div class="form__group">
+                                <input class="input-black input-black--phone tel" type="tel" placeholder="Ваш Телефон">
+                            </div>     
+                            <div class="for-btn for-btn--form">
+                                <button class="btn-submit" type="submit">Записаться</button>
+                            </div>      
+                        </form>
+                  
+                </div>
+            </div>
+           
+            <button class="modal__close" data-modal-close>
+                
+            </button>       
+        </div>
+      
+    </div>
+    
+    <!-- 3 -->
+    <div class="modal" id="neiropsicho" >
+        <div class="modal__inner">
+            <div class="modal__container show">
+                <div class="modal__header modal__header--fw700">
+                    Нейропсихология для детей
+                 </div>
+                 <div class="modal__content-item">
+                    <div class="modal__usluga">Нейропсихологическая диагностика (2 ч.)
+                    </div>
+                    <div class="modal__price">4000 руб..</div>
+                </div>
+                <div class="modal__content-item">
+                    <div class="modal__usluga">Нейропсихологическое занятие (1 ч.)
+                    </div>
+                    <div class="modal__price">2000 руб.</div>
+                </div>
+                <div class="modal__content-item">
+                    <div class="modal__usluga">Абонемент 8 занятий (по 1 ч.)
+                    </div>
+                    <div class="modal__price">14000 руб.</div>
+                </div>
+                <div class="modal__content-item">
+                    <div class="modal__usluga">Нейропсихологическое занятие (1,5 ч.)
+                    </div>
+                    <div class="modal__price">3000 руб.</div>
+                </div>
+                <div class="modal__content-item">
+                    <div class="modal__usluga">Абонемент 8 занятий (по 1,5 ч.)
+                    </div>
+                    <div class="modal__price">21000 руб.</div>
+                </div>
+                <div class="modal__content-item">
+                    <div class="modal__usluga">Нейропсихологическое занятие (1,5 ч.)
+                    </div>
+                    <div class="modal__price">4000 руб.</div>
+                </div>
+                <div class="modal__content-item">
+                    <div class="modal__usluga">Абонемент 8 занятий (по 1,5 ч.)
+                    </div>
+                    <div class="modal__price">28000 руб.</div>
+                </div>
+                 <div class="for-btn for-btn--form">
+                     <a href="#!" class="btn-submit btn-submit--center"  data-modal="#neiropsichoForm">Записаться</a>
+                 </div>
+            </div>
+            <div class="modal__container-2" id="neiropsichoForm">
+                <div class="modal__header">
+                    Консультация: <span>Нейропсихология для детей</span>
+                </div>
+             
+                <div class="request-form__content" >                      
+                   
+                        <form action="/" method="POST" >
+                            <div class="form__group" >
+                                <input class="input-black input-black--user" type="text" placeholder="Ваше Имя">
+                            </div>     
+                            <div class="form__group">
+                                <input class="input-black input-black--phone tel" type="tel" placeholder="Ваш Телефон">
+                            </div>     
+                            <div class="for-btn for-btn--form">
+                                <button class="btn-submit" type="submit">Записаться</button>
+                            </div>      
+                        </form>
+                  
+                </div>
+            </div>
+            <button class="modal__close" data-modal-close>
+                
+            </button>       
+        </div>
+      
+    </div>
+    <!-- 3 -->
+    <div class="modal" id="access" >
+        <div class="modal__inner">
+            <div class="modal__container show">
+                <div class="modal__header modal__header--fw700">
+                    Access bars
+                 </div>
+                 <div class="modal__content">
+                    <div class="modal__content-item">
+                        <div class="modal__usluga">Cессия взрослому (1 ч.)
+                        </div>
+                        <div class="modal__price">5000 руб..</div>
+                    </div>
+                    <div class="modal__content-item">
+                        <div class="modal__usluga">Абонемент 5 сессий
+                        </div>
+                        <div class="modal__price">20000 руб.</div>
+                    </div>
+                    <div class="modal__content-item">
+                        <div class="modal__usluga">Абонемент 10 сессий
+                        </div>
+                        <div class="modal__price">14000 руб.</div>
+                    </div>
+                    <div class="modal__content-item">
+                        <div class="modal__usluga">Сессия ребенку (1 ч.)
+                        </div>
+                        <div class="modal__price">3000 руб.</div>
+                    </div>
+                    <div class="modal__content-item">
+                        <div class="modal__usluga">Абонемент 5 сессий
+                        </div>
+                        <div class="modal__price">12000 руб.</div>
+                    </div>
+                    <div class="modal__content-item">
+                        <div class="modal__usluga">Абонемент 5 сессий
+                        </div>
+                        <div class="modal__price">12000 руб.</div>
+                    </div>
+                   
+                 </div>
+                 <div class="for-btn for-btn--form">
+                     <a href="#!" class="btn-submit btn-submit--center" data-modal="#accessForm">Записаться</a>
+                 </div> 
+            </div>
+            <div class="modal__container-2" id="accessForm">
+                <div class="modal__header">
+                    Консультация: <span>Access bars</span>
+                </div>
+             
+                <div class="request-form__content" >                      
+                   
+                        <form action="/" method="POST" >
+                            <div class="form__group" >
+                                <input class="input-black input-black--user" type="text" placeholder="Ваше Имя">
+                            </div>     
+                            <div class="form__group">
+                                <input class="input-black input-black--phone tel" type="tel" placeholder="Ваш Телефон">
+                            </div>     
+                            <div class="for-btn for-btn--form">
+                                <button class="btn-submit" type="submit">Записаться</button>
+                            </div>      
+                        </form>
+                  
+                </div>
+            </div>
+           
+            <button class="modal__close" data-modal-close>
+                
+            </button>       
+        </div>
+      
+    </div>
+    <!-- 4 -->
+    <div class="modal" id="children" >
+        <div class="modal__inner">
+            <div class="modal__container show">
+                <div class="modal__header modal__header--fw700">
+                    Психолог для детей
+                  </div>
+                  <div class="modal__content">
+                    <div class="modal__content-item">
+                        <div class="modal__usluga">Психологическая диагностика (2 ч.)
+                        </div>
+                        <div class="modal__price">3500 руб.</div>
+                    </div>
+                    <div class="modal__content-item">
+                        <div class="modal__usluga">Психологическое занятие (30 мин.)
+                        </div>
+                        <div class="modal__price">4000 руб.</div>
+                    </div>
+                    <div class="modal__content-item">
+                        <div class="modal__usluga">Абонемент 8 занятий (по 30 мин.)
+                        </div>
+                        <div class="modal__price">14000 руб.</div>
+                    </div>
+                    <div class="modal__content-item">
+                        <div class="modal__usluga">Психологическое занятие (1 ч.)
+                        </div>
+                        <div class="modal__price">2500 руб.</div>
+                    </div>
+                    <div class="modal__content-item">
+                        <div class="modal__usluga">Абонемент 8 занятий (по 1 ч.)
+                        </div>
+                        <div class="modal__price">18000 руб.</div>
+                    </div>
+                   
+                 </div>
+                  <div class="for-btn for-btn--form">
+                      <a href="#!" class="btn-submit btn-submit--center" data-modal="#childrenForm">Записаться</a>
+                  </div> 
+            </div>
+            <div class="modal__container-2" id="childrenForm">
+                <div class="modal__header">
+                    Консультация: <span>Психолог для детей</span>
+                </div>
+             
+                <div class="request-form__content" >                      
+                   
+                        <form action="/" method="POST" >
+                            <div class="form__group" >
+                                <input class="input-black input-black--user" type="text" placeholder="Ваше Имя">
+                            </div>     
+                            <div class="form__group">
+                                <input class="input-black input-black--phone tel" type="tel" placeholder="Ваш Телефон">
+                            </div>     
+                            <div class="for-btn for-btn--form">
+                                <button class="btn-submit" type="submit">Записаться</button>
+                            </div>      
+                        </form>
+                  
+                </div>
+            </div>
+            
+            <button class="modal__close" data-modal-close>
+                
+            </button>       
+        </div>
+      
+    </div>
+    <!-- 5 -->
+    
+    <!--  MODALS 1-5 -->
+    <!-- <div class="modal__container" id="neirodefectoCF">
+        <div class="modal__header">
+            Консультация: <span>Нейродефектология для детей</span>
+        </div>
+    
+        <div class="request-form__content" >                      
+           
+                <form action="/" method="POST" >
+                    <div class="form__group" >
+                        <input class="input-black input-black--user" type="text" placeholder="Ваше Имя">
+                    </div>     
+                    <div class="form__group">
+                        <input class="input-black input-black--phone tel" type="tel" placeholder="Ваш Телефон">
+                    </div>     
+                    <div class="for-btn for-btn--form">
+                        <button class="btn-submit" type="submit">Записаться</button>
+                    </div>      
+                </form>
+          
+        </div>
+    
+    </div> -->
+    <!--  MODALS 1-5 -->
+    <!-- <div class="modal__container" id="neiropsichoCF">
+        <div class="modal__header">
+            Консультация: <span>Нейропсихология для детей</span>
+        </div>
+    
+        <div class="request-form__content" >                      
+           
+                <form action="/" method="POST" >
+                    <div class="form__group" >
+                        <input class="input-black input-black--user" type="text" placeholder="Ваше Имя">
+                    </div>     
+                    <div class="form__group">
+                        <input class="input-black input-black--phone tel" type="tel" placeholder="Ваш Телефон">
+                    </div>     
+                    <div class="for-btn for-btn--form">
+                        <button class="btn-submit" type="submit">Записаться</button>
+                    </div>      
+                </form>
+          
+        </div>
+    
+    </div> -->
+    <!--  MODALS 1-5 -->
+    <!-- <div class="modal__container" id="accessCF">
+        <div class="modal__header">
+            Консультация: <span>Методика “Access bars”</span>
+        </div>
+    
+        <div class="request-form__content" >                      
+           
+                <form action="/" method="POST" >
+                    <div class="form__group" >
+                        <input class="input-black input-black--user" type="text" placeholder="Ваше Имя">
+                    </div>     
+                    <div class="form__group">
+                        <input class="input-black input-black--phone tel" type="tel" placeholder="Ваш Телефон">
+                    </div>     
+                    <div class="for-btn for-btn--form">
+                        <button class="btn-submit" type="submit">Записаться</button>
+                    </div>      
+                </form>
+          
+        </div>
+    
+    </div> -->
+    <!--  MODALS 1-5 -->
+    <!-- <div class="modal__container" id="childrenCF">
+        <div class="modal__header">
+            Консультация: <span>Психолог для детей</span>
+        </div>
+    
+        <div class="request-form__content" >                      
+           
+                <form action="/" method="POST" >
+                    <div class="form__group" >
+                        <input class="input-black input-black--user" type="text" placeholder="Ваше Имя">
+                    </div>     
+                    <div class="form__group">
+                        <input class="input-black input-black--phone tel" type="tel" placeholder="Ваш Телефон">
+                    </div>     
+                    <div class="for-btn for-btn--form">
+                        <button class="btn-submit" type="submit">Записаться</button>
+                    </div>      
+                </form>
+          
+        </div>
+    
+    </div> -->
+    <!--  MODALS 1-5 -->
+    <!-- <div class="modal__container" id="adultCF">
+        <div class="modal__header">
+            Консультация: <span>Психолог для взрослых</span>
+        </div>
+     
+        <div class="request-form__content" >                      
+           
+                <form action="/" method="POST" >
+                    <div class="form__group" >
+                        <input class="input-black input-black--user" type="text" placeholder="Ваше Имя">
+                    </div>     
+                    <div class="form__group">
+                        <input class="input-black input-black--phone tel" type="tel" placeholder="Ваш Телефон">
+                    </div>     
+                    <div class="for-btn for-btn--form">
+                        <button class="btn-submit" type="submit">Записаться</button>
+                    </div>      
+                </form>
+          
+        </div>
+    
+    </div> -->
+    <!--  MODALS 1-5 -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    
+    <script src="assets/js/app.js"></script>
+
+
+</body>
+</html>
